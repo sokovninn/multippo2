@@ -27,18 +27,21 @@ Pick and Place:
 `train.py -config ./configs/train_pnp_3n.json`
 
 Multitask Pick and Place:
-`train.py -config ./configs/train_pnp_2n_multitask2.json`
+`python train.py -config ./configs/train_pnp_2n_multitask2.json`
 
 Pick and Rotate:
-`train.py -config ./configs/pnr_medium.json`
+`python train.py -config ./configs/pnr_medium.json`
 
 Multitask Pick and Rotate:
-`train.py -config ./configs/pnr_medium_multi2.json`
+`python train.py -config ./configs/pnr_medium_multi2.json`
 
 Swipe:
-`train.py -config ./configs/train_swipe.json`
+`python train.py -config ./configs/train_swipe.json`
 
 Multitask Swipe:
-`train.py -config ./configs/train_swipe_multi2.json`
+`python train.py -config ./configs/train_swipe_multi2.json`
+
+Test the trained model:
+`python test.py --config ./path_to_the_training_config --gui 1`
 
 
