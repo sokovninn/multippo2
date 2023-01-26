@@ -3,8 +3,6 @@
 
 ## Installation
 
-Clone the repository:
-
 `cd multippo2`
 
 Create Python 3.7 conda env (later Python versions does not support TF 0.15.5 neccesary for Stable baselines ):
